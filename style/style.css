@@ -1,0 +1,57 @@
+body {
+    margin: none;
+    padding: 4rem 1.5rem;
+    overflow-x: hidden;
+    background-color: #FBFAF5;
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+}
+
+.form_container {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.3px;
+}
+
+#method {
+    border-radius: 6px;
+    border: 2px solid #198754;
+    color: #585a5d;
+}
+
+.response_error_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.response {
+    width: 40%;
+    border-radius: 10px;
+    padding: 1rem 0.5rem;
+    margin: 2rem auto;
+}
+
+#fullfilled {
+    overflow: auto;
+    background-color: #19875446;
+}
+
+#rejected {
+    text-align: center;
+    width: 25%;
+    color: rgb(97, 11, 11);
+    background-color: rgba(255, 0, 0, 0.207);
+}
+
+.btn {
+    border-radius: 13px;
+}
+
+#reset {
+    margin-left: 1.2rem;
+}
